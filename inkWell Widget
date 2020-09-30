@@ -1,14 +1,14 @@
-InkWell(
-                    onTap: () {
-                      final player = AudioCache();
-                      player.play('note7.wav');
-                    },
+
+                    InkWell(
                     child: Container(
                       height: 180.0,
                       width: 200.0,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(15.0),
                           color: Colors.grey,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.grey,
                           ),
                     ),
                   ),
